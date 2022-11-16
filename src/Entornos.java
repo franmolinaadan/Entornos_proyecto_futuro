@@ -4,7 +4,7 @@ public class Entornos {
     public static void main(String[] args) {
         System.out.println("Estudiante " + args[0] + ":" + veredicto("5", "4"));
     }
-    static String veredicto(String modu, String h){
+    private static String veredicto(String modu, String h){
 
         if (modu.equals(h)) {
             return "Bien. Pero una hora de estudio para cada módulo puede ser insuficiente.";
